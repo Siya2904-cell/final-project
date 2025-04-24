@@ -1,0 +1,15 @@
+# BUSCO version is: 3.0.1 
+# The lineage dataset is: dikarya_odb9 (Creation date: 2016-02-13, number of species: 75, number of BUSCOs: 1312)
+# To reproduce this run: python /opt/asn/apps/anaconda_3-4.2.0_cent/bin/run_BUSCO.py -i /scratch/aubsys/DNAData//Fov891A.contigs.fasta -o Fov891A_BUSCO -l /scratch/aubsys/busco/dikarya_odb9/ -m genome -c 10 -sp fusarium_graminearum
+#
+# Summarized benchmarking in BUSCO notation for file /scratch/aubsys/DNAData//Fov891A.contigs.fasta
+# BUSCO was run in mode: genome
+
+	C:98.7%[S:97.9%,D:0.8%],F:0.2%,M:1.1%,n:1312
+
+	1295	Complete BUSCOs (C)
+	1284	Complete and single-copy BUSCOs (S)
+	11	Complete and duplicated BUSCOs (D)
+	2	Fragmented BUSCOs (F)
+	15	Missing BUSCOs (M)
+	1312	Total BUSCO groups searched
